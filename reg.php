@@ -3,7 +3,7 @@
 <?php
 
 $form = $_POST;
-if(isset($form['app-entrance-btn'])){
+if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
 
     if(isset($form['name'])){
