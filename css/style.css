@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.app-reg,
+.app-entrance  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 400px;
+    padding: 24px 30px;
+    background-color: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.2);
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.c-form {
+
+}
+
+.c-form-item {
+    margin-bottom: 20px;
+}
+
+.c-form-label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.c-form-input {
+    display: block;
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 14px;
+    border-radius: 2px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.c-form-btn {
+    border:none;
+    outline: none;
+    border-radius: 4px;
+    background-color: #4dc3ff;
+    color: #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    padding: 8px 30px;
+    text-decoration: none;
+}
+
+.c-form-btn:hover {
+    box-shadow: 0 6px 10px rgba(0,0,0,.1);
+}
+
+.c-form-back {
+    margin-bottom: 15px;
+    text-decoration: none;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 4px 10px;
+    border:1px solid #333;
+    color: #333;
+}
