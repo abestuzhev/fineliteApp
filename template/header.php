@@ -1,3 +1,6 @@
+<?require_once '/include/include.php'?>
+<?require_once '/db.php'?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,5 +13,3 @@
 </head>
 <body>
 
-<?
-require_once '/include/include.php'?>
