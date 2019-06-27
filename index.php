@@ -10,12 +10,32 @@
         <div class="application">
             <form action="/include/application.php" name="app" method="POST" class="c-form app-entrance-form">
                 <div class="c-form-item">
-                    <label for="app-entrance-form__text" class="c-form-label">Покупка</label>
-                    <input type="text" id="app-entrance-form__text" name="category" class="c-form-input">
+                    <div class="c-form-item__title">Категория</div>
+                    <label class="c-form-radio-label">
+                        <input type="radio" name="category" value="products" class="c-form-radio" checked>
+                        Продукты
+                    </label>
+                    <label class="c-form-radio-label">
+                        <input type="radio" name="category" value="transit" class="c-form-radio">
+                        Проезд
+                    </label>
+                    <label class="c-form-radio-label">
+                        <input type="radio" name="category" value="cafe" class="c-form-radio">
+                        Кафе
+                    </label>
+                    <label class="c-form-radio-label">
+                        <input type="radio" name="category" value="entertainment" class="c-form-radio">
+                        Развлечения
+                    </label>
+
                 </div>
                 <div class="c-form-item">
-                    <label for="app-entrance-form__price" class="c-form-label">Цена</label>
-                    <input type="password" id="app-entrance-form__price" name="price" class="c-form-input">
+                    <p>
+                        <label for="amount">Сумма покупки:</label>
+                        <input type="text" id="amount" name="price"  style="border:0; color:#f6931f; font-weight:bold;">
+                    </p>
+
+                    <div id="slider-range-min"></div>
                 </div>
                 <button class="c-form-btn" name="app-entrance-btn">Занести</button>
             </form>

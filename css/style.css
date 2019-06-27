@@ -1,7 +1,12 @@
 
+body * {
+    box-sizing: border-box;
+}
+
 .c-layout {
     position: relative;
-    width: 780px;
+    max-width: 780px;
+    width: 100%;
     margin: 0 auto;
 }
 
